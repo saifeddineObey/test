@@ -1,0 +1,83 @@
+.nav-bar {
+  .fusion-logo-link {
+    img {
+      height: 40px !important;
+      width: 250px;
+    }
+  }
+  .navbar {
+    .nav-item {padding-right: 37px;}}
+  @media all and (min-width: 992px) {
+    .navbar {
+      .nav-item {
+        .dropdown-menu {
+          display: none;
+        }
+      }
+      .nav-item:hover {
+        border-top: 3px solid #3363ad;
+        .dropdown-menu {
+          box-shadow: 1px 1px 30px rgb(0 0 0 / 6%);
+          border-radius: 0;
+          border-top: 3px solid #3363ad;
+          display: block;
+        }
+      }
+      .dropdown-toggle::after {
+        display: none;
+      }
+    }
+  }
+  .fusion-page-title-bar {
+    padding-left: 30px;
+    padding-right: 30px;
+    .fusion-page-title-row {
+      margin: 0 auto;
+      height: 100%;
+      .fusion-page-title-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        .fusion-breadcrumb-item {
+          font-size: 10px;
+          color: #333333;
+        }
+      }
+    }
+  }
+  .intro_vgl {
+    background-image: url(https://dev.finanzvergleich.com/wp-content/uploads//2019/12/girokonto_vergleich_header_opt.jpg);
+    background-attachment: unset !important;
+    background-size: cover !important;
+    height: 150px;
+    background-position: bottom;
+    h1 {
+      margin: 0;
+      margin-top: 15px;
+      color: #fff !important;
+      text-shadow: 1px 1px #3363ad;
+      text-align: center !important;
+    }
+    .intro_vgl_layer {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-top: 0px;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0);
+      border-bottom: 2px solid #ccc;
+    }
+  }
+  .avada-page-titlebar-wrapper {
+    font-size: 11px;
+    color: #333333;
+    a {
+      text-decoration: none;
+      color: #333333;
+    }
+  }
+}

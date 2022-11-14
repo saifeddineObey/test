@@ -1,0 +1,93 @@
+.card{
+    border: 1px solid #ccc;
+    background-color: #f4fff2;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .teaserbox_sterne
+    {
+        padding-top: 16px;
+    }
+    .teaserbox_special_text {
+        background: #7eb724;
+        color: #fff;
+        height: max-content;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -5px;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 5px;
+        position: relative;
+        border-radius: 0px 5px 5px 5px;
+        box-shadow: 1px 1px 5px #ccc;
+    }
+    .teaserbox_logo {
+        img {
+            width: auto;
+            height: 70px !important;
+        }
+    }
+    .teaserbox_note  {
+        .product_note {
+            border: 1px solid #3363ad;
+            height: max-content;
+            width: 65px;
+            background: #3363ad;
+            box-shadow: 2px 2px 10px #acacac;
+            .note_outer {
+                width: 100%;
+                min-height: 60%;
+                background: #fff;
+                color: #3363ad;
+                font-size: 25px;
+            }
+            .note_content {
+                align-self: center;
+                text-align: center;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .teaserbox_bullets{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .feature_wrap {
+            display: flex;
+            flex-direction: column;
+            .kk_feature {
+                display: flex;
+                margin: 5px 0;
+                padding: 0px 5px;
+                border-radius: 5px;
+                color: #6a6a6a;
+                text-align: left;
+                font-size: 13px;
+                kk_feature_text {
+                    padding-left: 2px;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+    .teaserbox_cta{
+        padding-top: 15px;
+        a{
+        text-decoration: none;
+        .button {
+            border: 1px solid #ccc;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background: #f94b07;
+            color: #fff;
+            font-size: 14px;
+        }
+    } 
+}
+}
